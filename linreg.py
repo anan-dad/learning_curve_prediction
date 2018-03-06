@@ -20,7 +20,6 @@ if __name__ == '__main__':
 
     for train, val in kf.split(labels):
         X_train, y_train, X_val, y_val = inputs[train], labels[train], inputs[val], labels[val]
-        kfold = model_selection.KFold(n_splits=3, shuffle=True)
         linreg = LinearRegression()
         linreg.fit(X_train, y_train)
         score = linreg.score(X_val, y_val)
