@@ -1,6 +1,6 @@
 # Learning curve prediction
 
-Predict learning curves of CNN performance on CIFAR10 dataset as a course project in University of Freiburg.
+Predict learning curves of CNN performance on CIFAR10 dataset as a course project.
 
 # Dataset and paper
 
